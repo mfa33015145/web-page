@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Comentários</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/posts.css" rel="stylesheet">
+</head>
+<body>
+    <div class="button" onclick="abrirPaginaindex()">
+       HOME
+    </div>
+    <div class="button" onclick="abrirPaginaTabs()">
+        AULAS E TABS
+    </div>
+    <div class="button" onclick="abrirPaginaFactories()">
+        FABRICANTES
+    </div>
+
+    <h1>Poste seu comentário:</h1>
+    <div class="comment-box">
+        <textarea id="comment" placeholder="Escreva seu comentário aqui..." rows="4"></textarea>
+        <button onclick="postComment()">Postar Comentário</button>
+    </div>
+
+    <div id="comments" class="comments">
+        <!-- Aqui serão exibidos os comentários -->
+    </div>
+
+    <script src="js/posts.js"></script>
+    <script src="js/anime.min.js"></script>
+</body>
+</html>
