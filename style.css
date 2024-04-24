@@ -1,0 +1,39 @@
+body {
+    background: gray;
+    background-image: url('guitarra.gif');
+    background-size: auto;
+    background-position: center;
+  }
+  
+  
+.botao {
+    display: inline-flex;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    position: center;
+    text-decoration: none;
+}
+
+.botao:hover {
+    transform: scale(1.1);
+}
+
+.button {
+    display: inline-flex;
+    padding: 10px 20px;
+    background-color: gray;
+    color: white;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    position: center;
+    text-decoration: none;
+}
+
+.button:hover {
+    transform: scale(1.1);
+}
