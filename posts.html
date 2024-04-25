@@ -7,36 +7,23 @@
     <link href="style.css" rel="stylesheet">
 </head>
 <body>
-    <div class="botao" onclick="abrirPaginaindex()">
+    <audio id="somBotao1" src="jump.mp3"></audio>
+    <div class="botao" onclick="abrirPaginaindex()" onmouseover="playSoundOnHover('somBotao1')">
        HOME
     </div>
-    <div class="botao" onclick="abrirPaginaTabs()">
+    <div class="botao" onclick="abrirPaginaTabs()" onmouseover="playSoundOnHover('somBotao1')">
         AULAS E TABS
     </div>
-    <div class="botao" onclick="abrirPaginaFactories()">
+    <div class="botao" onclick="abrirPaginaFactories()" onmouseover="playSoundOnHover('somBotao1')">
         FABRICANTES
     </div>
-    <br><br><br><br>
-    <br><br><br><br>
-    <br><br><br><br>
-    <br><br><br><br>
-    <br><br><br><br>
-    <br><br><br><br>
-    <br><br><br><br>
-    <br><br><br><br>
-    <br><br><br><br>
-    <br><br><br><br>
-    <div class="button">
-    Poste seu comentário:
+    <div class="comment-box" onmouseover="playSoundOnHover('somBotao1')">
+        <form id="comment-form">
+            <textarea id="comment" name="comment" placeholder="Escreva seu comentário aqui..." rows="4"></textarea>
+            <button type="submit">Postar Comentário</button>
+        </form>
     </div>
-    <div class="comment-box">
-        <textarea id="comment" placeholder="Escreva seu comentário aqui..." rows="4"></textarea>
-        <button onclick="postComment()">Postar Comentário</button>
-    </div>
-
-    <div id="comments" class="comments">
-        <!-- Aqui serão exibidos os comentários -->
-    </div>
+    
 
     <script src="js/posts.js"></script>
 </body>
