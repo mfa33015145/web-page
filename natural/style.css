@@ -1,0 +1,115 @@
+body{
+    background:white;
+    background-image:url(guitarra.gif);
+    background-size:auto;
+    background-position:center
+}
+.botao{
+    display:inline-flex;
+    padding:10px 20px;
+    background-color:#000;
+    color:#fff;
+    border-radius:30px;
+    cursor:pointer;
+    transition:transform .3s ease;
+    position:center;
+    text-decoration:none;
+}
+.botao:hover{
+    transform:scale(1.1);
+    background-color:grey
+
+}
+   
+.button{
+    display:inline-flex;
+    padding:10px 20px;
+    background-color:gray;
+    color:#fff;
+    border-radius:30px;
+    cursor:pointer;
+    transition:transform .3s ease;
+    position:center;
+    text-decoration:none
+}
+    .button:hover{
+        transform:scale(1.1);
+        background-color:#000
+    }
+
+    .text{
+        width:400px;
+        float:left;
+        text-align:left;
+        padding:4% 5%;
+        background-color:#000;
+        border-radius:30px;
+        color:#fff;
+        cursor:pointer;
+        transition:transform .3s ease
+    }
+    .text:hover{
+        transform:scale(1.1);
+        background-color:grey;
+    }
+    .column{
+        padding:3% 4%;
+        cursor:pointer;
+        transition:transform .3s ease 
+      
+           
+
+    }
+    .column:hover{
+        transform:scale(1.1);
+    }
+
+
+    .mainmenubtn {
+        display:inline-flex;
+        padding:10px 20px;
+        background-color:#000;
+        color:white;
+        border-radius:30px;
+        cursor:pointer;
+        transition:transform .3s ease;
+        position:center;
+        text-decoration:none;
+    }
+    .mainmenubtn:hover {
+        background-color: black;
+        cursor:pointer;
+        transform:scale(1.1);
+            
+        
+    
+    }
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+    .dropdown-child {
+        display: none;
+        padding:10px 20px;
+        background-color:white;
+        color:white;
+        border-radius:20px;
+        cursor:pointer;
+        transition:transform .3s ease;
+        position:center;
+        text-decoration:none;
+    }
+    .dropdown-child a {
+        padding:10px 20px;
+        background-color: black;
+        color:white;
+        border-radius:30px;
+        cursor:pointer;
+        transition:transform .3s ease;
+        position:center;
+        text-decoration:none;
+        display: block;
+    }
+    .dropdown:hover .dropdown-child {
+        display: block;
+    }
